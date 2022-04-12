@@ -21,7 +21,22 @@
     }
 </style>
 
-<div>
-    <h1>Welcome!</h1><br>
-    <p>This site has been visited {{ count }} times.</p>
-</div>
+<body>
+<h1>Registration Form</h1>
+<form action="/action_page.php">
+<label for="name"> <b>Enter your Name:</b> </label>
+<input type="text" id="name" name="name"> <br><br>
+<label for="email"> <b>Enter your Email:</b> </label> 
+<input type="email" id="email" name="email"> <br>
+<label for="password"> <b>Enter your Password:</b> </label>
+<input type="text" id="password" name="password"> <br><br>
+<h3>Select Course:</h3>
+<input type="radio" id="Course1" name="Course" value="C++">
+<label for="Course1"> <b> C++ </b> </label> <br>
+<input type="radio" id="Course2" name="Course" value="Java">
+<label for="Course2"> <b> Java </b> </label> <br>
+<input type="radio" id="Course2" name="Course" value="Python">
+<label for="Course3"> <b> Python </b> </label> <br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
